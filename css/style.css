@@ -1,13 +1,32 @@
-nav {
-  background-color: #999;
+body {
+  width: 900px;
+  margin: 0px auto;
 }
+
+header {
+  width: 900px;
+  display: block;
+  margin: 0 auto;
+  }
 
 nav img {
   display: inline-block;
 }
 
+nav h1 {
+  font-family: 'Pacifico', cursive;
+  display: inline-block;
+}
+nav p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  display: inline-block;
+  letter-spacing: -1px;
+}
+
 nav ul {
-  display: inline-block
+  display: inline-block;
+  margin-left: 300px;
 }
 
 nav ul li {
@@ -21,6 +40,83 @@ nav ul li:nth-child(7) {
   padding: 0px 0px 0px 5px;
 }
 
+h2 {
+  font-size: 30px;
+  margin: 0px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  display: inline-block;
+  letter-spacing: -.5px;
+  margin: 0px;
+  margin-left: 2px;
+}
+
+section img {
+  display: inline-block;
+}
+
+div p {
+  overflow: auto;
+  text-indent: 20px;
+}
+
+container {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#one {
+  position: absolute;
+  list-style: none;
+  display: inline-block;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 50px;
+  
+}
+
+#one li {
+  padding: 2px;
+}
+
+#two {
+  position: absolute;
+  list-style: none;
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 500px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+#two li {
+  padding: 2px;
+}
+
 input[type=checkbox]:checked + label.strike {
   text-decoration: line-through;
 }
+
+h4 {
+  display: inline-block;
+  margin: 0px;
+}
+
+footer p {
+  display: inline-block;
+}
+
+#three {
+    margin-left: 330px; 
+    padding: 10px;
+}
+
+h5 {
+  text-align: center;
+}
+
